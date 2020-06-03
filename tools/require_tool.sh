@@ -57,7 +57,7 @@ awk_strverscmp='
 	if (v2 == "") d2 = v2; else { d2 = substr(v2, 1, 1); v2 = substr(v2,2) }
       }
       if (d1 < d2) exit 1
-      if (d1 > d2) exit 2
+     
     }
   }
 '
